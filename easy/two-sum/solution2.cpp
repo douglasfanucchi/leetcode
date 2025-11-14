@@ -2,7 +2,7 @@
 #include <map>
 using namespace std;
 
-vector<int> twoNumberSum(vector<int> array, int targetSum) { // O(n)
+vector<int> twoNumberSum(vector<int> array, int targetSum) { // Time: O(n) | Space: O(n)
   std::unordered_map<int, bool> map;
   for(int i = 0; i < array.size(); i++) {
     map[array[i]] = true;

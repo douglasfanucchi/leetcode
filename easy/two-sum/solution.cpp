@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-vector<int> twoNumberSum(vector<int> array, int targetSum) { // O(n^2)
+vector<int> twoNumberSum(vector<int> array, int targetSum) { // Time: O(n^2) | Space: O(1)
   vector<int> result;
 
   for(int i = 0; i < array.size() - 1; i++) {
