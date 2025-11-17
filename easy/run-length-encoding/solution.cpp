@@ -2,7 +2,7 @@
 
 using namespace std;
 
-string runLengthEncoding(string str) {
+string runLengthEncoding(string str) { // Time: O(n) | Space: O(n)
   string result(str + str);
   int len = 0, runLength;
 
