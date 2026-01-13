@@ -1,0 +1,1 @@
+Given an NxM grid, in how many ways can a rabbit get from the top-left to the bottom right corner if it can only move down or right?
